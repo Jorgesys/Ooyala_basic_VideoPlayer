@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videocontainer_fragment_lyt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.ooyala.android.OoyalaPlayerLayout
+        android:id="@+id/ooyalaPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+	>
+    </com.ooyala.android.OoyalaPlayerLayout>
+</LinearLayout>
